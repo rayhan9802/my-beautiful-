@@ -1,0 +1,17 @@
+ @media screen and (max-width:576px) {
+    header{
+        padding: 0px;
+    }
+    nav, .benner-container{
+        flex-direction: column;
+    }
+    nav > ul{
+        flex-direction: column;
+    }
+    .benner-container img{
+        width: 400px;
+    }
+    .benner-content{
+        padding-top: 10px;
+    }
+ }

@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Work+Sans:wght@400;600;700&display=swap');
+       
+       body{
+        font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+       }
+       /* nav section*/
+
+
+       header{
+        background: #FFF;
+        padding: 87px 120px;
+       }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h3{
+    color: #3A3A3A;
+font-size: 24px;
+font-weight: 700;
+}
+nav > ul{
+    display: flex;
+    gap: 30px;
+}
+nav li{
+ list-style: none;
+ color: #3A3A3A;
+font-size: 16px;
+font-weight: 600;
+ 
+}
+nav li a{
+    text-decoration: none;
+}
+
+     /*benner section*/
+
+     .benner-container{
+        display: flex;
+        justify-content: space-between;
+      border: 2px solid tan;
+      max-width: 1440px;
+      height: 500px;
+     }
+     .benner-content{
+      padding-top: 100px;
+     }
+     .benner-title{
+        color: #3A3A3A;
+        font-size: 45px;
+        font-weight: 700;
+     }
+     .btn{
+        border-radius: 41px;
+        background: #E02C6D;
+        padding: 10px 24px;
+        gap: 8px;
+        border: none;
+        color: #FFF;
+     }
+     .benner-container img{
+       background-image: url(/images/Circle\ design.svg);
+       background-repeat: no-repeat;
+       width: 460px;
+       height: 414px;
+
+       
+     }
+       
+     

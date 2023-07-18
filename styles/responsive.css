@@ -1,8 +1,11 @@
+ /* for mobile device*/
+ 
+ 
  @media screen and (max-width:576px) {
     header{
         padding: 0px;
     }
-    nav, .benner-container{
+    nav, .benner-container,.collection-container,.sponsor-img{
         flex-direction: column;
     }
     nav > ul{
@@ -14,4 +17,33 @@
     .benner-content{
         padding-top: 10px;
     }
+    .collection-container{
+       grid-template-columns: 1fr;
+    }
+    main{
+        width: 300px;
+        margin: 0px;
+    }
+    .sponsor-img{
+        margin-top: 300px;
+        padding-left: 70px;
+    }
  }
+
+       /* for tablet*/
+
+       @media screen and (min-width:577px) and (max-width:992px) {
+        nav, .benner-container, nav > ul,.sponsor-img,.collection-container{
+        flex-direction: column;
+       }
+       .collection-container{
+        grid-template-columns: repeat(2,1fr);
+       }
+       .sponsor-img{
+        margin-top: 300px;
+    }
+    main{
+        width:300px;
+        margin: 0px;
+    }
+}
